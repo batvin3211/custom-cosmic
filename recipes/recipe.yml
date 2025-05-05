@@ -34,7 +34,7 @@ modules:
     system:
       # If no repo information is specified, Flathub will be used by default
       install:
-        - one.ablaze.floorp
+        - app.zen_browser.zen
         - dev.edfloreshz.CosmicTweaks
         - org.gnome.Loupe
       remove:
