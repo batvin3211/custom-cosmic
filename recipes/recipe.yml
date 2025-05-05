@@ -36,6 +36,7 @@ modules:
       install:
         - app.zen_browser.zen
         - dev.edfloreshz.CosmicTweaks
+        - org.onlyoffice.desktopeditors
         - org.gnome.Loupe
       remove:
         - org.gnome.eog
