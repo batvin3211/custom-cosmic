@@ -23,6 +23,7 @@ modules:
     install:
       - micro
       - starship
+      - https://github.com/minbrowser/min/releases/download/v1.35.0/min-1.35.0-x86_64.rpm
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
