@@ -26,6 +26,8 @@ modules:
       - starship
       - tailscale
       # dependancys
+      - gvfs-client
+      - gvfs-fuse
       - gvfs-smb
     remove:
       # example: removing firefox (in favor of the flatpak)
