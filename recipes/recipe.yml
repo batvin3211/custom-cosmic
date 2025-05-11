@@ -40,7 +40,8 @@ modules:
     system:
       # If no repo information is specified, Flathub will be used by default
       install:
-        - app.zen_browser.zen
+        - one.ablaze.floorp
+        - dev.heppen.webapps
         - dev.edfloreshz.CosmicTweaks
         - org.onlyoffice.desktopeditors
         - org.gnome.Loupe
