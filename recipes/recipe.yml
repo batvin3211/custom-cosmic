@@ -40,8 +40,9 @@ modules:
     system:
       # If no repo information is specified, Flathub will be used by default
       install:
-        - one.ablaze.floorp
-        - dev.heppen.webapps
+        - org.garudalinux.firedragon
+        - com.github.tchx84.Flatseal
+        - it.mijorus.gearlever
         - dev.edfloreshz.CosmicTweaks
         - org.onlyoffice.desktopeditors
         - org.gnome.Loupe
