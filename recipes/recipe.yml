@@ -45,6 +45,7 @@ modules:
         - dev.edfloreshz.CosmicTweaks
         - org.onlyoffice.desktopeditors
         - org.gnome.Loupe
+        - dev.deedles.Trayscale
       remove:
         - org.gnome.eog
     user: {} # Also add Flathub user repo, but no user packages
