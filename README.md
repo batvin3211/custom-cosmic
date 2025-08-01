@@ -28,7 +28,7 @@ If build on Fedora Atomic, you can generate an offline ISO with the instructions
 
 ISO build command
 ```
-sudo bluebuild generate-iso --iso-name custom-aurora.iso iamge ghcr.io/batvin3211/custom-cosmic:latest
+sudo bluebuild generate-iso --iso-name custom-cosmic.iso iamge ghcr.io/batvin3211/custom-cosmic:latest
 ```
 
 ## Verification
