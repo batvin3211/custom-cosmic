@@ -1,0 +1,12 @@
+{
+    "BraveRewardsDisabled": true,
+    "BraveWalletDisabled": true,
+    "BraveVPNDisabled": 1,
+    "BraveAIChatEnabled": false,
+    "NewTabPageLocation": "https://searx.ascosilinux.com",
+    "DefaultSearchProviderSearchURL": "https://searx.ascosilinux.com/search?q={searchTerms}",
+    "DefaultSearchProviderEnabled": true,
+    "TorDisabled": true,
+    "PasswordManagerEnabled": false,
+    "DnsOverHttpsMode": "automatic"
+}
