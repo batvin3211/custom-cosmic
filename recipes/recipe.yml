@@ -38,12 +38,11 @@ modules:
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
-  - type: default-flatpaks
-    configurations:
-      - notify: true # Send notification after install/uninstall is finished (true/false)
-        scope: system
-        # If no repo information is specified, Flathub will be used by default
-        install: # system flatpaks we want all users to have and not remove
+- type: default-flatpaks@v1
+    notify: true # Send notification after install/uninstall is finished (true/false)
+    system:
+      # If no repo information is specified, Flathub will be used by default
+      install:
         - com.brave.Browser
         - com.github.tchx84.Flatseal
         - it.mijorus.gearlever
@@ -54,7 +53,7 @@ modules:
         - org.gpodder.gpodder
         - com.makemkv.MakeMKV
         - fr.handbrake.ghb
-        remove:
+      remove:
         - org.gnome.eog
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
