@@ -31,6 +31,7 @@ modules:
       - gvfs-client
       - gvfs-fuse
       - gvfs-smb
+      - https://updates.safing.io/latest/linux_amd64/packages/Portmaster-2.0.23-1.x86_64.rpm
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
