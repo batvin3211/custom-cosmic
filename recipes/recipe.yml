@@ -53,6 +53,8 @@ modules:
         - org.gpodder.gpodder
         - com.makemkv.MakeMKV
         - fr.handbrake.ghb
+        - org.gnome.Boxes
+        - https://github.com/SoftFever/OrcaSlicer/releases/download/v2.3.0/OrcaSlicer-Linux-flatpak_V2.3.0_x86_64.flatpak
       remove:
         - org.gnome.eog
 
