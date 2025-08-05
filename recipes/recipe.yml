@@ -28,8 +28,10 @@ modules:
       - starship
       - tailscale
       # drivers
+      - gvfs
       - gvfs-client
       - gvfs-fuse
+      - gvfs-mtp
       - gvfs-smb
       - https://updates.safing.io/latest/linux_amd64/packages/Portmaster-2.0.23-1.x86_64.rpm
     remove:
