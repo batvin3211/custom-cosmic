@@ -28,6 +28,7 @@ modules:
       - starship
       - tailscale
       # drivers
+      - broadcom-wl
       - gvfs
       - gvfs-client
       - gvfs-fuse
