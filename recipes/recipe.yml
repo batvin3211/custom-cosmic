@@ -23,7 +23,6 @@ modules:
     base: main
     install:
       - wl
-      - v4l2loopback
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
@@ -59,8 +58,9 @@ modules:
         - org.gnome.Loupe
         - dev.deedles.Trayscale
         - org.gpodder.gpodder
-        - com.makemkv.MakeMKV
-        - fr.handbrake.ghb
+        - io.github.mpobaschnig.Vaults
+        - org.virt_manager.virt-manager
+        - org.virt_manager.virt_manager.Extension.Qemu
       remove:
         - org.gnome.eog
 
