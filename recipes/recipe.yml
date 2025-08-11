@@ -32,6 +32,9 @@ modules:
       - starship
       - tailscale
       # drivers
+      - system-config-printer
+      - hplip
+      - ghostscript
       - gvfs
       - gvfs-client
       - gvfs-fuse
@@ -71,6 +74,7 @@ modules:
       enabled:
         - tailscaled.service
         - portmaster.service
+        - cups.service
   - type: brew
     nofile-limits: true # increase nofile limits
     brew-analytics: false # disable telemetry
