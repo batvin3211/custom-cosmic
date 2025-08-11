@@ -19,9 +19,11 @@ modules:
     files:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
-  - type: bling
+  - type: akmods
+    base: fsync-ba
     install:
-      - rpmfusion # install RPMFusion repos, including tainted repos & disable negativo17 repos if installed
+      - wl
+      - v4l2loopback
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
@@ -31,7 +33,6 @@ modules:
       - starship
       - tailscale
       # drivers
-      - broadcom-wl
       - gvfs
       - gvfs-client
       - gvfs-fuse
