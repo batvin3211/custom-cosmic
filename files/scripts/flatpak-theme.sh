@@ -8,3 +8,5 @@ set -oue pipefail
 # Your code goes here.
 sudo flatpak override --filesystem=xdg-config/gtk-3.0:ro
 sudo flatpak override --filesystem=xdg-config/gtk-4.0:ro
+sudo flatpak override --filesystem=xdg-config/Kvantum:ro
+sudo flatpak override --env=QT_STYLE_OVERRIDE=kvantum
