@@ -54,7 +54,8 @@ modules:
       # If no repo information is specified, Flathub will be used by default
       install:
         - com.brave.Browser
-        - com.github.tchx84.Flatseal
+        - io.github.flattool.Warehouse
+        - io.github.dvlv.boxbuddyrs
         - it.mijorus.gearlever
         - dev.edfloreshz.CosmicTweaks
         - org.onlyoffice.desktopeditors
