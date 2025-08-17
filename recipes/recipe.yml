@@ -4,6 +4,9 @@
 name: custom-cosmic
 # description will be included in the image's metadata
 description: This is my personal OS image.
+alt-tags:
+  - stable
+  - latest
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/cosmic-atomic-main
@@ -20,6 +23,7 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
   - type: akmods
+    base: bazzite
     install:
       - wl
   - type: rpm-ostree
