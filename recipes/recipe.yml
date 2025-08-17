@@ -28,6 +28,7 @@ modules:
       - starship
       - tailscale
       # drivers
+      - akmod-wl
       - system-config-printer
       - hplip
       - ghostscript
