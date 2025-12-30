@@ -51,6 +51,7 @@ modules:
         - firefox
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
         - htop
+        - cosmic-player
     group-install:
       with-optional: true # install optional packages from group
       packages:
@@ -64,13 +65,13 @@ modules:
       install:
         - com.brave.Browser
         - io.github.flattool.Warehouse
-        - io.github.dvlv.boxbuddyrs
+        - com.ranfdev.DistroShelf
+        - io.github.celluloid_player.Celluloid
         - it.mijorus.gearlever
         - dev.edfloreshz.CosmicTweaks
         - org.onlyoffice.desktopeditors
         - org.gnome.Loupe
         - dev.deedles.Trayscale
-        - org.gpodder.gpodder
         - io.github.mpobaschnig.Vaults
         - org.virt_manager.virt-manager
         - org.virt_manager.virt_manager.Extension.Qemu
