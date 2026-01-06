@@ -23,6 +23,8 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
   - type: akmods
     base: fsync-ba
+    install:
+      - v4l2loopback
     
   - type: dnf
     repos:
