@@ -21,11 +21,6 @@ modules:
     files:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
-  - type: akmods
-    base: fsync-ba
-    install:
-      - v4l2loopback
-    
   - type: dnf
     repos:
       cleanup: true
@@ -47,7 +42,6 @@ modules:
         - gvfs-fuse
         - gvfs-mtp
         - gvfs-smb
-        - https://updates.safing.io/latest/linux_amd64/packages/Portmaster-2.0.23-1.x86_64.rpm
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
@@ -88,7 +82,6 @@ modules:
     system:
       enabled:
         - tailscaled.service
-        - portmaster.service
         - cups.service
   - type: brew
     nofile-limits: true # increase nofile limits
