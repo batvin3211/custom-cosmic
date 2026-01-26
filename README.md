@@ -15,7 +15,7 @@ To rebase an existing atomic Fedora installation to the latest build:
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
   ```
-  sudo bootc switch ghcr.io/batvin3211/custom-cosmic:latest
+  sudo bootc switch ghcr.io/batvin3211/custom-cosmic:stable
   ```
 - Reboot to complete the rebase:
   ```
@@ -30,7 +30,7 @@ If build on Fedora Atomic, you can generate an offline ISO with the instructions
 
 ISO build command
 ```
-sudo bluebuild generate-iso --iso-name custom-cosmic.iso image ghcr.io/batvin3211/custom-cosmic:latest
+sudo bluebuild generate-iso --iso-name custom-cosmic.iso image ghcr.io/batvin3211/custom-cosmic:stable
 ```
 
 ## Verification
