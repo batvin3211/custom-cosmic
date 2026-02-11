@@ -40,7 +40,6 @@ modules:
         - gvfs-fuse
         - gvfs-mtp
         - gvfs-smb
-        - mingw64-adwaita-qt6
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
