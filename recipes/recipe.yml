@@ -40,9 +40,6 @@ modules:
         - gvfs-fuse
         - gvfs-mtp
         - gvfs-smb
-        - libevdi 
-        - displaylink 
-        - kmod-evdi
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
