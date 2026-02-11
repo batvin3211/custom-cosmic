@@ -46,7 +46,9 @@ modules:
         - firefox
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
         - htop
+        - nvtop
         - cosmic-player
+        - nheko
     group-install:
       with-optional: true # install optional packages from group
       packages:
