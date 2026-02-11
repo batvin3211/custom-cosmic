@@ -30,6 +30,7 @@ modules:
       packages:
         - micro
         - tailscale
+        - btop
         # drivers
         - system-config-printer
         - hplip
@@ -68,6 +69,7 @@ modules:
         - dev.edfloreshz.CosmicTweaks
         - org.onlyoffice.desktopeditors
         - org.gnome.Loupe
+        - io.github.vikdevelop.SaveDesktop
         - dev.deedles.Trayscale
         - io.github.mpobaschnig.Vaults
         - org.virt_manager.virt-manager
