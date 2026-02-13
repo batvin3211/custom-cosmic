@@ -18,7 +18,6 @@ modules:
     scripts:
       - nix.sh
       - dialout-group.sh
-      - flatpak-theme.sh
   - type: files
     files:
       - source: system
