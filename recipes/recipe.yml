@@ -61,6 +61,9 @@ modules:
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
       # If no repo information is specified, Flathub will be used by default
+      repo:
+        url: https://apt.pop-os.org/cosmic/cosmic.flatpakrepo
+        name: cosmic
       install:
         - com.brave.Browser
         - io.github.flattool.Warehouse
